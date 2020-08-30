@@ -1,0 +1,108 @@
+* {
+  
+  margin: 0;
+  padding: 0;
+box-sizing:border-box;
+}
+
+body {
+	background-color: #DAB859;
+}
+
+header {
+	text-align: center;
+	font-size: 175%;
+	margin: 40px;
+	font-family: Impact, Charcoal, sans-serif;
+
+}
+
+.opcion {
+	position: relative;
+	background-color: #D8D4B5;
+	border: 1px solid black;
+	float:left;
+	margin-left: 3%;
+	margin-bottom: 3%;
+	
+	
+
+
+}
+
+
+h1 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 40%;
+	font-size: 125%;
+	color: #DBC8C8;
+	font-family: "Arial Black", Gadget, sans-serif;
+
+
+	
+	
+}
+
+p{
+	padding: 10px;
+	padding-top: 35px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: justify;
+	font-size: 100%;
+
+
+}
+
+
+#pollo{
+	background-color: #470A0A;
+}
+
+#bife{
+	background-color: #762323;
+	
+}
+
+#sushi{
+	background-color: #AA5353;
+}
+
+
+@media (min-width: 992px) {
+	.opcion {
+		width: 29.33%;
+		
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.opcion {
+		width: 45.5%;
+		
+
+	}
+
+	#opcion3{
+		width: 94%;
+		
+		
+		
+	}
+
+	
+	
+
+}
+
+@media (max-width: 767px) {
+	.opcion {
+		width: 94%;
+	}
+}
+
